@@ -13,9 +13,8 @@ The three Proof of Work currencies selected for the purposes of this project are
 
 ## The Models
 ___
-* We utilized two predictive models - The *Random Forest Regressor (RF)* for features analysis and the *Long Short-Term Memory Recurrent Neural Network (LSTM RNN)* for historical price comparison.
+* Here I've utilized two predictive models - The *Random Forest Regressor (RF)* for features analysis and the *Long Short-Term Memory Recurrent Neural Network (LSTM RNN)* for historical price comparison.
 
-<<<<<<< HEAD
 * Backtesting - Comparative study between the outcome of investing with the model's calls vs [*hodling*](https://en.wikipedia.org/wiki/Hodl) the given currency.
 
 
@@ -31,7 +30,6 @@ ___
 6. Using the MFI source, load the money flow index for the currency
 7. Load the money Flow index for the currency
 8. Merge the closing price, ewm, fng, mfi, and Google dataframe into a single dataframe. Name it currency_df.
-
 
 
 ## Sources
